@@ -217,7 +217,7 @@ export const DATA = {
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
-        avatar: "/me.png",
+        avatar: "/me.jpg",
       },
     },
     {
@@ -306,7 +306,7 @@ export const DATA = {
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
-        avatar: "/me.png",
+        avatar: "/me.jpg",
       },
     },
     {
@@ -393,7 +393,7 @@ export const DATA = {
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
-        avatar: "/me.png",
+        avatar: "/me.jpg",
       },
     },
   ],

@@ -324,12 +324,12 @@ export default function Page() {
                     <motion.div
                       whileHover={{ scale: 1.02 }}
                       transition={{ duration: 0.3 }}
-                      className="relative overflow-hidden border border-white/10 bg-white/30 aspect-video"
+                      className="relative overflow-hidden aspect-video"
                     >
                       <Image
                         src={project.thumbnail || "/placeholder.svg"}
                         alt={project.title}
-                        className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                        className="object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
                         fill
                       />
                       <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
