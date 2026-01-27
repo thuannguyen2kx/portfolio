@@ -34,7 +34,7 @@ export const DATA = {
   ],
 
   contact: {
-    email: "nguyenthanhthuan.info@gmail.com",
+    email: "thuan.nguyenthanh.work@gmail.com",
     tel: "0345 098 435",
     social: {
       github: {

@@ -7,10 +7,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { PortfolioWrapper } from "@/components/portfolio-wrapper";
+import ResumeButton from "@/components/resume-button";
 export default function Page() {
   return (
     <PortfolioWrapper>
       <main className="min-h-dvh bg-linear-to-br from-zinc-800 via-black to-zinc-800 text-white relative">
+        <ResumeButton />
         <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-5 w-full max-w-2xl">
           <div className="backdrop-blur-2xl bg-white/2 border-white/2 border rounded-full px-6 py-3 shadow-2xl">
             <div className="flex justify-between items-center">

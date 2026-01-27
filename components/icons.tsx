@@ -7,6 +7,7 @@ import {
   Circle,
   Code,
   ExternalLink,
+  FileUser,
   MailIcon,
   MapPin,
   Phone,
@@ -28,6 +29,7 @@ export const Icons = {
   sparkle: (props: IconProps) => <Sparkle {...props} />,
   phone: (props: IconProps) => <Phone {...props} />,
   mappin: (props: IconProps) => <MapPin {...props} />,
+  fileUser: (props: IconProps) => <FileUser {...props} />,
   github: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
