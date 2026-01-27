@@ -3,8 +3,8 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "Nguyen Thanh Thuan",
   initials: "TT",
-  url: "https://nguyenthanhthuan.com",
-  location: "Tan Binh, Ho Chi Minh City, Vietnam",
+  url: "https://thuannguyen2kx.site",
+  location: "Ho Chi Minh, Vietnam",
   title: "Frontend Developer | React Next.js NodeJs",
   description:
     "Frontend Developer who loves building clean, modern, and scalable web interfaces.",
@@ -14,7 +14,7 @@ export const DATA = {
     In the past year, I have been very focused on learning front-end web programming. Now I am very confident that my abilities can meet your requirements.
     `,
 
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
 
   skills: [
     { name: "React", icon: Icons.react },
@@ -42,14 +42,9 @@ export const DATA = {
         url: "https://github.com/thuannguyen2kx",
         icon: "github",
       },
-      linkedin: {
-        name: "LinkedIn",
-        url: "https://linkedin.com/in/nguyenthanhthuan",
-        icon: "linkedin",
-      },
       email: {
         name: "Email",
-        url: "mailto:nguyenthanhthuan.info@gmail.com",
+        url: "mailto:thuan.nguyenthanh.work@gmail.com",
         icon: "mail",
       },
     },
@@ -62,10 +57,11 @@ export const DATA = {
       title: "Frontend Developer",
       logoUrl: "/mst.png",
       start: "May 2024",
-      end: "Present",
+      end: "Aug 2025",
       description: `
-        Developed scalable frontend features using React and Next.js. Worked closely with designers and backend teams to deliver responsive, user-friendly interfaces. Improved UI consistency and performance across the platform.
-        Proposed and standardized ESLint, Prettier, and EditorConfig across the team, significantly improving code quality and speeding up code reviews.
+        MST Entertainment is a startup in Vietnam building web platforms and interactive tools for the entertainment industry.
+        I joined the company as a Frontend Developer, working with React and Next.js to develop scalable and responsive user interfaces. The products I worked on include interactive engagement tools, booking systems, and link-in-bio style web pages. I contributed to building reusable components, improving UI consistency, and optimizing performance, achieving approximately 25% faster page load times. I also helped establish team-wide code standards using ESLint, Prettier, and EditorConfig to improve code quality and streamline code reviews.
+        The main technologies used include JavaScript, TypeScript, React, Next.js, NestJS, and MongoDB.
         `,
       achievements: [
         "Built reusable component library",
@@ -81,8 +77,11 @@ export const DATA = {
       logoUrl: "/ncc.png",
       start: "Jun 2023",
       end: "Sep 2023",
-      description:
-        "Learned core frontend concepts and worked on internal projects using React. Integrated REST APIs and practiced clean code and Git workflow.",
+      description: `
+        NCC Plus is a software outsourcing company in Vietnam specializing in web and enterprise solutions.
+        I joined NCC Plus as a Frontend Developer Intern, where I learned core frontend concepts and worked on internal projects using React. I focused on converting UI designs into reusable React components, integrating REST APIs, and following clean code principles and Git workflows. I also participated in code reviews and technical research to improve code quality and development practices.
+        The main technologies used include React, JavaScript, REST APIs, and Git.
+      `,
       achievements: [
         "Converted UI designs into React components",
         "Worked with REST APIs",
@@ -97,8 +96,8 @@ export const DATA = {
       href: "https://haui.edu.vn",
       degree: "Bachelor of Computer Science",
       logoUrl: "/haui.png",
-      start: "2020",
-      end: "2024",
+      start: "2021",
+      end: "2025",
       description:
         "Studied software engineering fundamentals, data structures, algorithms, and web development.",
     },
@@ -106,11 +105,127 @@ export const DATA = {
 
   projects: [
     {
+      title: "Pet Care & Social Platform",
+      slug: "pet-care-social-platform",
+      tagline: "Pet Care Booking, Management & Social Network",
+      duration: "8 Months",
+      dates: "Jun 2024 - Jan 2025",
+      description:
+        "A multi-role pet care platform that allows customers to book pet services, manage pet profiles, and interact through a social network, while enabling staff and administrators to efficiently manage operations via dedicated dashboards.",
+      longDescription: `
+        Pet Care & Social Platform is a large-scale frontend application built to simulate a real-world pet care ecosystem.
+        The system combines service booking, pet management, and a social network for pet owners into a single, cohesive product.
+        The project focuses on handling complex business logic, role-based access control, and scalable UI architecture using modern React patterns.
+        It demonstrates how multiple domains—booking workflows, online payments, social interactions, and administrative management—can coexist in one production-oriented frontend codebase. 
+      `,
+      role: "Web Developer",
+      status: "Graduation Project & Personal Project",
+
+      features: [
+        {
+          title: "Service Booking",
+          description:
+            "Book pet care services with real-time availability and booking tracking",
+          stats: "Online",
+          label: "Booking",
+        },
+        {
+          title: "Pet Management",
+          description:
+            "Manage pet profiles including medical history, vaccination records, and service usage",
+          stats: "Multi",
+          label: "Pets",
+        },
+        {
+          title: "Social Pet Network",
+          description:
+            "Social feed where pet owners can create posts, comment, and react to content.",
+          stats: "Community",
+          label: "Driven",
+        },
+        {
+          title: "Payment Integration",
+          description: "Secure online payments for services using Stripe",
+          stats: "Stripe",
+          label: "Payment",
+        },
+        {
+          title: "Role-Based System",
+          description:
+            "Separate workflows and interfaces for customers, employees, and administrators.",
+          stats: "RBAC",
+          label: "Access",
+        },
+        {
+          title: "Notifications & Status Tracking",
+          description:
+            "Real-time notifications and status updates for bookings, payments, and service progress",
+          stats: "Realtime",
+          label: "Notify",
+        },
+      ],
+
+      technologies: [
+        { name: "React", icon: Icons.react },
+        { name: "Node", icon: Icons.node },
+        { name: "MongoDB", icon: Icons.mongodb },
+        { name: "TypeScript", icon: Icons.typescript },
+        { name: "Tailwind CSS", icon: Icons.tailwind },
+        { name: "React Query", icon: Icons.reactquery },
+        { name: "React Hook Form", icon: Icons.reactHookForm },
+        { name: "Zod", icon: Icons.zod },
+      ],
+
+      links: {
+        demo: "/projects/pet-care-social-platform",
+        live: "https://petcare.thuannguyen2kx.site",
+        github: "https://github.com/thuannguyen2kx/pet-care",
+      },
+
+      thumbnail: "/projects/petcare/petcare-home.png",
+
+      images: [
+        "/projects/petcare/petcare-login.png",
+        "/projects/petcare/petcare-customer-home.png",
+        "/projects/petcare/petcare-customer-pet-profile.png",
+        "/projects/petcare/petcare-customer-services.png",
+        "/projects/petcare/petcare-customer-create-booking.png",
+        "/projects/petcare/petcare-customer-social.png",
+        "/projects/petcare/petcare-customer-profile.png",
+        "/projects/petcare/petcare-admin-dashboard.png",
+        "/projects/petcare/petcare-admin-schedule.png",
+        "/projects/petcare/petcare-admin-employee-work-hour.png",
+        "/projects/petcare/petcare-admin-bookings.png",
+        "/projects/petcare/petcare-admin-booking-detail.png",
+      ],
+
+      technicalHighlights: [
+        "Role-based access control across multiple user types",
+        "End-to-end appointment booking workflow with status tracking",
+        "Stripe payment integration for service checkout",
+        "Social feed implementation (posts, comments, reactions)",
+        "Asynchronous data fetching & caching with React Query",
+        "Complex form handling with React Hook Form & Zod",
+        "Modular, scalable dashboard layouts",
+        "Component-based UI architecture for large-scale applications",
+      ],
+
+      author: {
+        name: "Nguyen Thanh Thuan",
+        role: "Web Developer",
+        email: "thuan.nguyenthanh.work@gmail.com",
+        phone: "0345 098 435",
+        location: "HCMC, Vietnam",
+        github: "https://github.com/thuannguyen2kx",
+        avatar: "/me.png",
+      },
+    },
+    {
       title: "Lite Shop",
       slug: "lite-shop",
       tagline: "Modern E-commerce Platform",
-      duration: "1 Months",
-      dates: "Nov 2025 - Dec 2025",
+      duration: "2 Months",
+      dates: "Oct 2025 - Dec 2025",
       description:
         "A lightweight e-commerce platform with product listing, cart, and responsive UI.",
       longDescription:
@@ -157,22 +272,19 @@ export const DATA = {
       ],
       links: {
         demo: "/projects/lite-shop",
-        live: "https://liteshop-demo.com",
-        github: "https://github.com/thuannguyen2kx/lite-shop",
+        live: "https://liteshop-sigma.vercel.app",
+        github: "https://github.com/thuannguyen2kx/liteshop",
       },
-      thumbnail:
-        "https://i.pinimg.com/736x/69/35/2e/69352e36b46fcffe5a033b0881460872.jpg",
+      thumbnail: "/projects/liteshop/liteshop-login.png",
       images: [
-        "/projects/lite-shop/lite_shop_1.png",
-        "/projects/lite-shop/lite_shop_2.png",
-        "/projects/lite-shop/lite_shop_3.png",
-        "/projects/lite-shop/lite_shop_4.png",
-        "/projects/lite-shop/lite_shop_5.png",
-        "/projects/lite-shop/lite_shop_6.png",
-        "/projects/lite-shop/lite_shop_7.png",
-        "/projects/lite-shop/lite_shop_8.png",
-        "/projects/lite-shop/lite_shop_9.png",
-        "/projects/lite-shop/lite_shop_10.png",
+        "/projects/liteshop/liteshop-home.png",
+
+        "/projects/liteshop/liteshop-products.png",
+        "/projects/liteshop/liteshop-product-detail.png",
+        "/projects/liteshop/liteshop-product-related.png",
+        "/projects/liteshop/liteshop-cart.png",
+        "/projects/liteshop/liteshop-order-success.png",
+        "/projects/liteshop/liteshop-purchase-history.png",
       ],
       technicalHighlights: [
         "JWT authentication with automatic refresh token handling",
@@ -190,11 +302,10 @@ export const DATA = {
       author: {
         name: "Nguyen Thanh Thuan",
         role: "Frontend Developer",
-        email: "nguyenthanhthuan.info@gmail.com",
+        email: "thuan.nguyenthanh.work@gmail.com",
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
-        linkedin: "https://linkedin.com/in/nguyenthanhthuan",
         avatar: "/me.png",
       },
     },
@@ -251,7 +362,7 @@ export const DATA = {
 
       links: {
         demo: "/projects/panda-nft",
-        live: "https://panda-nft-demo.com",
+        live: "https://panda-nft-gilt.vercel.app",
         github: "https://github.com/thuannguyen2kx/panda-nft",
       },
 
@@ -278,113 +389,10 @@ export const DATA = {
       author: {
         name: "Nguyen Thanh Thuan",
         role: "Frontend Developer",
-        email: "nguyenthanhthuan.info@gmail.com",
+        email: "thuan.nguyenthanh.work@gmail.com",
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
-        linkedin: "https://linkedin.com/in/nguyenthanhthuan",
-        avatar: "/me.png",
-      },
-    },
-
-    {
-      title: "Pet Care & Social Platform",
-      slug: "pet-care-social-platform",
-      tagline: "Pet Care Booking, Management & Social Network",
-      duration: "8 Months",
-      dates: "Jun 2024 - Jan 2025",
-      description:
-        "A multi-role pet care platform that enables customers to book services, manage pet profiles, interact socially, and allows staff and administrators to manage operations efficiently.",
-      longDescription:
-        "Pet Care & Social Platform is a comprehensive frontend application designed to support pet care service booking, pet management, and a social network for pet owners. The project focuses on real-world domain complexity, multi-role access control, and scalable frontend architecture. It demonstrates how booking workflows, payment integration, social interactions, and administrative dashboards can coexist within a single, well-structured React application.",
-
-      role: "Frontend Developer",
-      status: "Graduation Project & Personal Project",
-
-      features: [
-        {
-          title: "Service Booking",
-          description:
-            "Book pet care services with real-time availability and appointment tracking",
-          stats: "Online",
-          label: "Booking",
-        },
-        {
-          title: "Pet Management",
-          description:
-            "Manage pet profiles, medical history, and service records",
-          stats: "Multi",
-          label: "Pets",
-        },
-        {
-          title: "Social Pet Network",
-          description:
-            "Create posts, comments, and reactions to connect pet owners",
-          stats: "Community",
-          label: "Driven",
-        },
-        {
-          title: "Payment Integration",
-          description: "Secure online payments for services using Stripe",
-          stats: "Stripe",
-          label: "Payment",
-        },
-        {
-          title: "Role-Based System",
-          description:
-            "Separate workflows for customers, employees, and administrators",
-          stats: "RBAC",
-          label: "Access",
-        },
-      ],
-
-      technologies: [
-        { name: "React", icon: Icons.react },
-        { name: "TypeScript", icon: Icons.typescript },
-        { name: "Tailwind CSS", icon: Icons.tailwind },
-        { name: "React Query", icon: Icons.reactquery },
-        { name: "React Hook Form", icon: Icons.reactHookForm },
-        { name: "Zod", icon: Icons.zod },
-        { name: "Stripe", icon: Icons.stripe },
-      ],
-
-      links: {
-        demo: "/projects/pet-care-social-platform",
-        live: "https://pet-care-demo.com",
-        github: "https://github.com/thuannguyen2kx/pet-care-social",
-      },
-
-      thumbnail:
-        "https://i.pinimg.com/736x/9a/6d/3b/9a6d3b2c7e1f4a8c9b0a7d6f5c4b3a2d.jpg",
-
-      images: [
-        "/projects/pet-care/pet_dashboard.png",
-        "/projects/pet-care/booking.png",
-        "/projects/pet-care/pet_profile.png",
-        "/projects/pet-care/social_feed.png",
-        "/projects/pet-care/employee_schedule.png",
-        "/projects/pet-care/admin_dashboard.png",
-      ],
-
-      technicalHighlights: [
-        "Role-based access control for customers, employees, and administrators",
-        "Appointment booking workflow with real-time status tracking",
-        "Stripe payment integration for service checkout",
-        "Social feed implementation with posts, comments, and reactions",
-        "Asynchronous data handling using React Query",
-        "Complex form validation with React Hook Form & Zod",
-        "Scalable dashboard layouts for operational and analytics views",
-        "Component-based UI architecture for large-scale applications",
-      ],
-
-      author: {
-        name: "Nguyen Thanh Thuan",
-        role: "Frontend Developer",
-        email: "nguyenthanhthuan.info@gmail.com",
-        phone: "0345 098 435",
-        location: "HCMC, Vietnam",
-        github: "https://github.com/thuannguyen2kx",
-        linkedin: "https://linkedin.com/in/nguyenthanhthuan",
         avatar: "/me.png",
       },
     },

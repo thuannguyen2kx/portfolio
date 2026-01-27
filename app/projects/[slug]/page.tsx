@@ -49,7 +49,7 @@ export default function ProjectPage({
     setCurrentImage((prev) => (prev + 1) % project.images.length);
   const prevImage = () =>
     setCurrentImage(
-      (prev) => (prev - 1 + project.images.length) % project.images.length
+      (prev) => (prev - 1 + project.images.length) % project.images.length,
     );
 
   return (
@@ -114,7 +114,7 @@ export default function ProjectPage({
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-center mb-20"
           >
-            <h1 className="text-6xl md:text-8xl lg:text-[140px] font-black mb-8 tracking-tighter leading-none">
+            <h1 className="text-4xl md:text-8xl font-black mb-8 tracking-tighter leading-none">
               {project.title}
             </h1>
             <div className="h-px w-32 bg-white mx-auto mb-8" />
@@ -240,7 +240,7 @@ export default function ProjectPage({
               </h2>
             </div>
             <div className="lg:col-span-2">
-              <p className="text-2xl md:text-3xl font-light leading-relaxed mb-8 text-white/90">
+              <p className="text-2xl md:text-3xl font-light leading-relaxed mb-8 text-white/90 whitespace-pre-line">
                 {project.longDescription}
               </p>
               <div className="h-px bg-white/10 my-12" />

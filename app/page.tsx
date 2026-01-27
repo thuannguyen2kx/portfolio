@@ -14,11 +14,13 @@ export default function Page() {
         <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-5 w-full max-w-2xl">
           <div className="backdrop-blur-2xl bg-white/2 border-white/2 border rounded-full px-6 py-3 shadow-2xl">
             <div className="flex justify-between items-center">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-linear-to-br from-white to-gray-400 flex items-center justify-center text-black font-bold text-sm ">
-                  {DATA.initials}
-                </div>
-              </div>
+              <Image
+                src="/logo.svg"
+                alt="Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
 
               <div className="hidden md:flex items-center gap-1 ">
                 {["Work", "Projects", "Skills"].map((item, i) => (
