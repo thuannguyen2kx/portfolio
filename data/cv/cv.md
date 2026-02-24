@@ -8,7 +8,7 @@
     <p><b>Phone</b>: 0345 098 435</p>
     <p><b>Portfolio</b>: https://thuannguyen2kx.site</p>
     <p><b>Birthday</b>: 11/04/2003</p>
-    <p><b>Location</b>: Ho Chi Minh City, Vietnam</p>
+    <p><b>Location</b>: Ho Chi Minh, Vietnam</p>
   </div>
 </div>
 
@@ -24,7 +24,7 @@ In the past year, I have been very focused on learning front-end web programming
 
 ### Frontend Developer
 
-**MST Entertainment** · May 2024 – Jun 2025
+**MST Entertainment** · Oct 2024 – Jul 2025
 
 MST Entertainment is a startup in Vietnam building web platforms and interactive tools for the entertainment industry.
 
@@ -34,7 +34,7 @@ The main technologies used include JavaScript, TypeScript, React, Next.js, NestJ
 
 ### Frontend Developer Intern
 
-**NCC Plus** · Jun 2023 – Sep 2023
+**NCC Plus** · May 2024 – Sep 2024
 
 NCC Plus is a software outsourcing company in Vietnam specializing in web and enterprise solutions.
 
@@ -76,7 +76,7 @@ Frontend clone of an e-commerce user interface with production-level practices.
 - Code splitting and build optimization
 - SEO with React Helmet
 - Public / private route separation
-- Unit testing and component management with Storybook
+- Component management with Storybook
 
 **Website:** https://liteshop-sigma.vercel.app  
 **GitHub:** https://github.com/thuannguyen2kx/liteshop

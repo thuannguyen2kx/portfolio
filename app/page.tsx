@@ -11,7 +11,7 @@ import ResumeButton from "@/components/resume-button";
 export default function Page() {
   return (
     <PortfolioWrapper>
-      <main className="min-h-dvh bg-linear-to-br from-zinc-800 via-black to-zinc-800 text-white relative">
+      <main className="min-h-dvh bg-[#0A0A0A] text-[#EDEDED] selection:bg-white/10 relative">
         <ResumeButton />
         <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-5 w-full max-w-2xl">
           <div className="backdrop-blur-2xl bg-white/2 border-white/2 border rounded-full px-6 py-3 shadow-2xl">
@@ -292,10 +292,10 @@ export default function Page() {
                   ))}
                 </Marquee>
               </div>
-              <div className="from-black/90 pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-linear-to-b"></div>
-              <div className="from-black/90 pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-linear-to-t"></div>
-              <div className="from-black/90 pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-linear-to-r"></div>
-              <div className="from-black/90 pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-linear-to-l"></div>
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-linear-to-b"></div>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-linear-to-t"></div>
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-linear-to-r"></div>
+              <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-linear-to-l"></div>
             </div>
           </div>
         </AnimatedSection>

@@ -5,7 +5,7 @@ export const DATA = {
   initials: "TT",
   url: "https://thuannguyen2kx.site",
   location: "Ho Chi Minh, Vietnam",
-  title: "Frontend Developer | React Next.js NodeJs",
+  title: "Frontend Developer | React & Next.js | Basic Node.js",
   description:
     "Frontend Developer who loves building clean, modern, and scalable web interfaces.",
 
@@ -56,8 +56,8 @@ export const DATA = {
       href: "https://mst.com",
       title: "Frontend Developer",
       logoUrl: "/mst.png",
-      start: "May 2024",
-      end: "Aug 2025",
+      start: "Nov 2024",
+      end: "Jul 2025",
       description: `
         MST Entertainment is a startup in Vietnam building web platforms and interactive tools for the entertainment industry.
         I joined the company as a Frontend Developer, working with React and Next.js to develop scalable and responsive user interfaces. The products I worked on include interactive engagement tools, booking systems, and link-in-bio style web pages. I contributed to building reusable components, improving UI consistency, and optimizing performance, achieving approximately 25% faster page load times. I also helped establish team-wide code standards using ESLint, Prettier, and EditorConfig to improve code quality and streamline code reviews.
@@ -75,8 +75,8 @@ export const DATA = {
       href: "https://ncc.asia",
       title: "Frontend Intern",
       logoUrl: "/ncc.png",
-      start: "Jun 2023",
-      end: "Sep 2023",
+      start: "May 2024",
+      end: "Sep 2024",
       description: `
         NCC Plus is a software outsourcing company in Vietnam specializing in web and enterprise solutions.
         I joined NCC Plus as a Frontend Developer Intern, where I learned core frontend concepts and worked on internal projects using React. I focused on converting UI designs into reusable React components, integrating REST APIs, and following clean code principles and Git workflows. I also participated in code reviews and technical research to improve code quality and development practices.
@@ -295,7 +295,6 @@ export const DATA = {
         "Build size analysis and performance optimization",
         "SEO optimization using React Helmet",
         "Public & private route separation",
-        "Unit testing",
         "Component-driven development with Storybook",
       ],
 

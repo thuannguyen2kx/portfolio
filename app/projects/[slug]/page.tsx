@@ -53,7 +53,7 @@ export default function ProjectPage({
     );
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-[#0A0A0A] text-[#EDEDED] selection:bg-white/10 px-10">
       {/* Navigation */}
       <motion.nav
         initial={{ y: -100, opacity: 0 }}
@@ -114,7 +114,7 @@ export default function ProjectPage({
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-center mb-20"
           >
-            <h1 className="text-4xl md:text-8xl font-black mb-8 tracking-tighter leading-none">
+            <h1 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter leading-none">
               {project.title}
             </h1>
             <div className="h-px w-32 bg-white mx-auto mb-8" />
@@ -235,12 +235,12 @@ export default function ProjectPage({
             className="grid lg:grid-cols-3 gap-16"
           >
             <div>
-              <h2 className="text-xs font-mono uppercase tracking-widest text-white/40 mb-4">
+              <h2 className="text-sm font-mono uppercase tracking-widest text-white/40 mb-4">
                 Overview
               </h2>
             </div>
             <div className="lg:col-span-2">
-              <p className="text-2xl md:text-3xl font-light leading-relaxed mb-8 text-white/90 whitespace-pre-line">
+              <p className="text-2xl md:text-2xl font-light leading-tight mb-8 text-white/90 whitespace-pre-line">
                 {project.longDescription}
               </p>
               <div className="h-px bg-white/10 my-12" />
@@ -274,7 +274,7 @@ export default function ProjectPage({
             viewport={{ once: true }}
             className="mb-20"
           >
-            <h2 className="text-5xl md:text-6xl font-black mb-4">
+            <h2 className="text-2xl md:text-4xl font-black mb-4">
               Key Features
             </h2>
             <p className="text-xl text-white/40">
@@ -295,10 +295,10 @@ export default function ProjectPage({
                 variants={fadeIn}
                 className="bg-black p-10 md:p-12 hover:bg-white/5 transition-colors group"
               >
-                <div className="flex items-start justify-between mb-8">
+                <div className="flex items-start justify-between mb-4">
                   <Icons.code className="w-10 h-10 opacity-30 group-hover:opacity-60 transition-opacity" />
                   <div className="text-right">
-                    <div className="text-4xl md:text-5xl font-black mb-1">
+                    <div className="text-2xl md:text-3xl font-black mb-1">
                       {feature.stats}
                     </div>
                     <div className="text-xs text-white/40 font-mono uppercase tracking-wider">
@@ -306,7 +306,7 @@ export default function ProjectPage({
                     </div>
                   </div>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">
                   {feature.title}
                 </h3>
                 <p className="text-white/50 text-lg leading-relaxed">
@@ -327,7 +327,7 @@ export default function ProjectPage({
             viewport={{ once: true }}
             className="mb-20"
           >
-            <h2 className="text-5xl md:text-6xl font-black mb-4">Technology</h2>
+            <h2 className="text-2xl md:text-4xl font-black mb-4">Technology</h2>
             <p className="text-xl text-white/40">Tools & frameworks used</p>
           </motion.div>
 
@@ -368,7 +368,7 @@ export default function ProjectPage({
             className="border border-white/10 p-10 md:p-16"
           >
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-black mb-6">
+              <h2 className="text-2xl md:text-4xl font-black mb-6">
                 Get In Touch
               </h2>
               <p className="text-xl md:text-2xl text-white/40">

@@ -33,7 +33,7 @@ export default function CVMarkdown({ content }: { content: string }) {
           </Link>
 
           <Link
-            href="/cv/cv.pdf"
+            href="/cv/CV_NguyenThanhThuan_FrontEnd.pdf"
             className="group flex items-center gap-2.5 px-5 py-2.5 border border-white/10 hover:border-white/30 hover:bg-white/2 transition-all duration-500"
           >
             <Download className="size-4" strokeWidth={1.5} />

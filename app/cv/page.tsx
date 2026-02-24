@@ -11,7 +11,7 @@ export default async function CVPage() {
   const content = await getCVMarkdown();
 
   return (
-    <div className="min-h-screem bg-black text-white">
+    <div className="min-h-screem ">
       <CVMarkdown content={content} />
     </div>
   );
