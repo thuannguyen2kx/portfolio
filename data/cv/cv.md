@@ -4,7 +4,7 @@
   <img src="./me.jpg" width="160" style="border-radius: 8px;" />
 
   <div>
-    <p><b>Email</b>: thuan.nguyenthanh.work@gmail.com</p>
+    <p><b>Email</b>: nguyenthanhthuan.info@gmail.com</p>
     <p><b>Phone</b>: 0345 098 435</p>
     <p><b>Portfolio</b>: https://thuannguyen2kx.site</p>
     <p><b>Birthday</b>: 11/04/2003</p>

@@ -34,7 +34,7 @@ export const DATA = {
   ],
 
   contact: {
-    email: "thuan.nguyenthanh.work@gmail.com",
+    email: "nguyenthanhthuan.info@gmail.com",
     tel: "0345 098 435",
     social: {
       github: {
@@ -213,7 +213,7 @@ export const DATA = {
       author: {
         name: "Nguyen Thanh Thuan",
         role: "Web Developer",
-        email: "thuan.nguyenthanh.work@gmail.com",
+        email: "nguyenthanhthuan.info@gmail.com",
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
@@ -301,7 +301,7 @@ export const DATA = {
       author: {
         name: "Nguyen Thanh Thuan",
         role: "Frontend Developer",
-        email: "thuan.nguyenthanh.work@gmail.com",
+        email: "nguyenthanhthuan.info@gmail.com",
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
@@ -388,7 +388,7 @@ export const DATA = {
       author: {
         name: "Nguyen Thanh Thuan",
         role: "Frontend Developer",
-        email: "thuan.nguyenthanh.work@gmail.com",
+        email: "nguyenthanhthuan.info@gmail.com",
         phone: "0345 098 435",
         location: "HCMC, Vietnam",
         github: "https://github.com/thuannguyen2kx",
